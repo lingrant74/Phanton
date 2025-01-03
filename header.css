@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Moderustic:wght@300..800&display=swap');
+
+
+html{
+    font-family: Moderustic, Segoe UI, sans-serif;
+}
+
+
+
+.header{
+    background-color: rgba(34,47,62);
+    display: flex;
+    flex: 1;
+    height: 38px;
+    align-items: center;
+    overflow: hidden; 
+}
+
+    .header-left{
+        background-color: rgba(34,47,62);
+        height: 38px;
+        display:flex;
+        align-items: center;
+        flex: 1;
+        margin-right: px;
+        align-items: space-between;
+
+    }
+    .all{
+        width: 55px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 2px;
+        height: 30px;
+        border: 2px solid transparent;
+        font-weight: bold;
+        transition: border-color 0.3s;
+        border-radius: 2px;
+        color: lightgray;
+        cursor: pointer;
+        margin: 0;
+        font-size: 15px;
+  
+    
+        
+    }
+        .all:hover {
+            border-color: white;
+        }
+        
+        .all-image{
+            height: 30px;
+            width: 25px;
+            filter: invert(100%); 
+            margin-right: 2px;
+
+        }
+
+    .medical-care{
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        height: 30px;
+        border: 2px solid transparent;
+        font-weight: bold;
+        margin-left: 100px;
+        transition: border-color 0.3s;
+        border-radius: 2px;
+        color: lightgray;
+        cursor: pointer;
+        width: 115px;
+        font-size: 15px;
+        padding-right: 3px;
+
+    }
+        .medical-care:hover {
+            border-color: white;
+        }
+
+        .fa-caret-down{
+            margin-left: 5px;
+        }
+
+
+        .keep-shopping{
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            height: 30px;
+            border: 2px solid transparent;
+            font-weight: bold;
+            transition: border-color 0.3s;
+            border-radius: 2px;
+            color: lightgray;
+            cursor: pointer;
+            width: 135px;
+            font-size: 15px;
+            padding: 0 3px;
+    
+        }
+            .keep-shopping:hover {
+                border-color: white;
+            }
+
+
+        .customer-service{
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            height: 30px;
+            border: 2px solid transparent;
+            font-weight: bold;
+            transition: border-color 0.3s;
+            border-radius: 2px;
+            color: lightgray;
+            cursor: pointer;
+            width: 125px;
+            font-size: 15px;
+            padding: 0 3px;
+    
+        }
+            .customer-service:hover {
+                border-color: white;
+            }
+
+
+        .phanton-basics{
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            height: 30px;
+            border: 2px solid transparent;
+            font-weight: bold;
+            transition: border-color 0.3s;
+            border-radius: 2px;
+            color: lightgray;
+            cursor: pointer;
+            width: 110px;
+            font-size: 15px;
+            padding: 0 3px;
+    
+        }
+            .phanton-basics:hover {
+                border-color: white;
+            }
+
+        .pharmacy{
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            height: 30px;
+            border: 2px solid transparent;
+            font-weight: bold;
+            transition: border-color 0.3s;
+            border-radius: 2px;
+            color: lightgray;
+            cursor: pointer;
+            width: 85px;
+            font-size: 15px;
+            padding: 0 3px;
+            
+    
+        }
+            .pharmacy:hover {
+                border-color: white;
+            }
+    
+            .fa-caret-down{
+                margin-left: 5px;
+            }
+        .today-deal{
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            height: 30px;
+            border: 2px solid transparent;
+            font-weight: bold;
+            transition: border-color 0.3s;
+            border-radius: 2px;
+            color: lightgray;
+            cursor: pointer;
+            width: 105px;
+            font-size: 15px;
+            padding: 0 3px;
+    
+        }
+            .today-deal:hover {
+                border-color: white;
+            }
+        .gift-card{
+                display: inline-flex;
+                justify-content: center;
+                align-items: center;
+                height: 30px;
+                border: 2px solid transparent;
+                font-weight: bold;
+                transition: border-color 0.3s;
+                border-radius: 2px;
+                color: lightgray;
+                cursor: pointer;
+                width: 90px;
+                font-size: 15px;
+                padding: 0 3px;
+                
+        
+            }
+                .gift-card:hover {
+                    border-color: white;
+                }
+        
+                .fa-caret-down{
+                    margin-left: 5px;
+                }
+            .phanton-home{
+                display: inline-flex;
+                justify-content: center;
+                align-items: center;
+                height: 30px;
+                border: 2px solid transparent;
+                font-weight: bold;
+                transition: border-color 0.3s;
+                border-radius: 2px;
+                color: lightgray;
+                cursor: pointer;
+                width: 110px;
+                font-size: 15px;
+                padding: 0 3px;
+        
+            }
+                .phanton-home:hover {
+                    border-color: white;
+                }
+
+            .buy-again{
+                display: inline-flex;
+                justify-content: center;
+                align-items: center;
+                height: 30px;
+                border: 2px solid transparent;
+                font-weight: bold;
+                transition: border-color 0.3s;
+                border-radius: 2px;
+                color: lightgray;
+                cursor: pointer;
+                width: 80px;
+                font-size: 15px;
+                padding: 0 3px;
+        
+            }
+                .buy-again:hover {
+                    border-color: white;
+                }
+
+            .shop-by{
+                display: inline-flex;
+                justify-content: center;
+                align-items: center;
+                height: 30px;
+                border: 2px solid transparent;
+                font-weight: bold;
+                transition: border-color 0.3s;
+                border-radius: 2px;
+                color: lightgray;
+                cursor: pointer;
+                width: 123px;
+                font-size: 15px;
+                padding: 0 3px;
+        
+            }
+                .shop-by:hover {
+                    border-color: white;
+                }
+
+            .panton-business{
+                display: inline-flex;
+                justify-content: center;
+                align-items: center;
+                height: 30px;
+                border: 2px solid transparent;
+                font-weight: bold;
+                transition: border-color 0.3s;
+                border-radius: 2px;
+                color: lightgray;
+                cursor: pointer;
+                width: 135px;
+                font-size: 15px;
+                padding: 0 3px;
+        
+            }
+                .panton-business:hover {
+                    border-color: white;
+                }
+                .fa-caret-down{
+                    margin-left: 5px;
+                }
+        @media (max-width: 1480px) {
+            .panton-business{
+                display: none
+            }
+        }
+        @media (max-width: 1340px) {
+            .shop-by{
+                display: none
+            }
+        }
